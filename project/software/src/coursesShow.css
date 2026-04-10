@@ -1,0 +1,28 @@
+#coursesshow{
+    margin-top: 10px ;
+    margin-left: 50px;
+
+}
+#coursesshow div{
+    margin: 15px;
+    border-radius: 10px;
+}
+#coursesshow img{
+    background-size: cover;
+    height: 290px;
+    width: 350px;
+    margin-top:5px ;
+}
+.card-title button{
+    background-color: rgb(241, 227, 254);
+    text-align: center;
+    border: 1px solid rgb(236, 219, 253);
+    border-radius: 15px;
+    width: 320px;
+    padding: 6px 0px;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+}
+

@@ -1,0 +1,34 @@
+#cou{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR48FsBQJerdfW-jQYv-2n5G_pwgt05QEpIpw&s");
+    background-size: cover;
+    height: 100%;
+    padding:20px 0px;
+}
+#c{
+    width: 350px;
+    margin: 20px;
+    margin-bottom: 100px;    
+}
+#card{
+    display: flex; 
+    margin-left: 300px;
+}
+#cou h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 2px #79bbf1;
+
+}
+#cou h1 .word{
+    opacity: 0;
+    animation: fadeIn 0.9s forwards;
+}
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+#c:hover{
+    box-shadow: 1px 1px 8px rgb(218, 222, 240);
+}
